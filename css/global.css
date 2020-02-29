@@ -1,0 +1,19 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.home{
+    height: 760px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+footer {
+    height: 110px;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #D6D175;
+}
