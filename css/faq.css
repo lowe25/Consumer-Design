@@ -4,8 +4,11 @@
     margin: 0px;
     padding: 0px;
 }
+.contain{
+    width: 100%;
+}
 .faq-body{
-    height: 610px;
+    height: 889px;
     background-color: #fff;
     margin: 0px;
     padding: 0px;
@@ -41,5 +44,13 @@
         padding: 10px;
         font-size: 18px;
     }
-    
+
+/*RESPONSOVE
+@media(max-width: 768px)
+{
+    .faq-body{
+        height: 95rem;
+    }
+}
+*/
     

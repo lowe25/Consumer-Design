@@ -2,9 +2,9 @@
     font-family: Arial, Helvetica, sans-serif; 
     background-color: #E684AE;
   }*/
-  
   * {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; 
   }
   
   input[type=text], select, textarea {
@@ -43,25 +43,29 @@ input[type="button"]
   /*input[type=submit]:hover {
     background-color: #ff6e7f;
   }*/
-  .container {
+  .container 
+  {
+    height: 889px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    padding-top: 100px;
+    padding-left: 150px;
+  }
+  .user-form {
     border-radius: 5px;
-    width: 400px;
-    background-color: white;
+    width: 800px;
+    background-color: #f4f4f4;
     padding: 20px;
   }
 
-  h1{
-      text-align: left;
-      padding-bottom: 10px;
-  }
-  
-  .form
-  {
-      background-color: #f4f4f4;
-      padding-top: 35px;
-     padding-left: 470px;
-     padding-bottom: 40px;
-  } 
+  /*RESPONSIVE*/
+@media(max-width: 768px)
+{
+.container{
+  text-align: center;
+}
+}
 
 
 

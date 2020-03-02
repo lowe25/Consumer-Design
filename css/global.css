@@ -4,7 +4,7 @@
     padding: 0px;
 }
 .home{
-    height: 610px;
+    height: 870px;
     width: 100%;
     text-align: center;
     color: black;
@@ -29,11 +29,13 @@ footer {
     padding-bottom: 10px;
     text-align: center;
     background-color: #D6D175;
+    display: none;
 }
 footer p 
 {
-    font-size: 20px;
+    display: none;
 }
+
 
 /*
 
