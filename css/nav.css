@@ -75,3 +75,21 @@ margin-bottom: 30px;
     color:black;
     border-bottom: 1px solid black;
 }
+/*FOR NAV HOVER LEFT*/
+/**/
+.wrapper ul li ul {
+    display: none;
+    position: absolute;
+    left: 200px;
+	background-color: #CB3A43;
+	padding: 10px;
+	border-radius: 0px 0px 4px 4px;
+}
+
+.wrapper ul li:hover ul {
+    display: inline-block;
+}
+
+.wrapper ul li ul a:hover{
+    color: white;
+}
