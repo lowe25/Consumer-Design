@@ -24,9 +24,11 @@
 }
 
 .prod-card{
-    /*background-image: url(../Images/pizza.jpg);*/
+    background-image: url(../Images/burger.jpg);
     height: 200px;
     width:100%;
+    background-repeat: none;
+    background-size: cover;
     color:white;
     font-weight: bold;
     margin-top: 10px;
@@ -37,6 +39,36 @@
 
 .prod-pizza{
     background-image: url(../Images/pizza.jpg);
+    background-repeat: no-repeat;   
+    background-size: cover;
+    height: 200px;
+    width:100%;
+    color:white;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-left: 10px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.prod-appertizers{
+    background-image: url(../Images/pizza.jpg);
+    background-repeat: no-repeat;   
+    background-size: cover;
+    height: 200px;
+    width:100%;
+    color:white;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-left: 10px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.prod-dessert{
+    background-image: url(../Images/dessert.jpg);
+    background-repeat: no-repeat;   
+    background-size: cover;
     height: 200px;
     width:100%;
     color:white;
