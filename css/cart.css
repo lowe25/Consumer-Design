@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cart{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(211, 211, 70);
+    color: black;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.cart-container{
+    border: 2px solid black;
+    margin: auto;
+    text-align: center;
+    background-color: #F7F7F7;
+    color: #EA2231;
+    border-radius: 10px;
+    height: 200px;
+    width: 40%;
+}
+
+.payment{
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 20%;
+    border-radius: 10px;
+    margin: auto;
+    color: #EA2231;
+    border:2px solid black;
+}

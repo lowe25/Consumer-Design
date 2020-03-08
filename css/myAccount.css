@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+  height: 80px;
+  max-width: 100%;
+  background-color: #E4E93F;
+  color: white;
+  text-align: center;
+}
+
+.container {
+    margin: auto;
+    max-width: 800px;
+    border-radius: 25px;
+    background-color: #f2f2f2;
+    padding: 30px;
+  }
+
+ .person-info, .delivery-info{
+   color: red;
+   font-size: 27px;
+   padding: 10px;
+   padding-bottom: 10px;
+ }
+
+ .fname, .mname, .lname, .pnumber{
+   padding: 10px;
+   height: 30px;
+   width: 30%;
+ }
+
+ .pnumb{
+   padding-top: 10px;
+ }
+
+ 
+ /*COMBO BOX*/
+ .cty, .region{
+   height: 30px;
+   width: 40%;
+ }
+ .city{
+  padding: 10px;
+}
+ /*TEXTBOX*/
+ .house-info, .street-info{
+  height: 30px;
+  width: 40%;
+ }
+ .ext{
+  height: 30px;
+  width: 40%;
+ }
+
+ .street, .extra{
+   padding: 10px;
+ }
+
+  /*FORM CLASSES*/
+ .form-btn, .city, .street, .extra{
+  padding-top: 10px;
+  margin: auto;
+  text-align: center;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+ }
+
+ /*BUTTON*/
+ input[type="button"]
+ {
+   border: none;
+   color: white;
+   background-color: crimson;
+   border-radius: 1px;
+   height: 30px;
+   width: 40%;
+ }
+
+ /*RESPONSIVE*/
+ @media(max-width:1222px){
+    *{
+      color: white;
+      width: 100%;
+    }
+
+    header{
+      text-align: center;
+      padding-left: 200px;
+    }
+  .person-form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    width: 100%;
+  }
+  .form-btn, .city, .street, .extra{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    width: 100%;
+  }
+   .container{
+    border-radius: 25px;
+    background-color: #f2f2f2;
+    padding-left: 230px;
+   }
+    
+   .fname, .mname, .lname, .pnumber{
+    height: 30px;
+    width: 90%;
+   }
+
+   /*FOR COMBOBOX*/
+   .cty, .region{
+    height: 30px;
+    width: 90%;
+  }
+
+  /*FOR TEXTBOXES*/
+  .house-info, .street-info, .ext{
+    height: 30px;
+    width: 90%;
+  }
+ }
+
+
+ 
+
+
+ 
+  
+ /*RESPONSIVE 2*
+ @media(min-width:768px){
+  *{
+    color: white;
+  }
+.person-form{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+}
+.form-btn, .city, .street, .extra{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+}
+ .container{
+  border-radius: 25px;
+  background-color: black;
+  padding-left: 230px;
+ }
+  
+ .fname, .mname, .lname, .pnumber{
+  height: 30px;
+  width: 40%;
+ }
+*/
+ /*FOR COMBOBOX*
+ .cty, .region{
+  height: 30px;
+  width: 40%;
+}
+
+/*FOR TEXTBOXES*
+.house-info, .street-info{
+  height: 30px;
+  width: 40%;
+}
+}*/
+
+  
+  
+  
+  
+  
