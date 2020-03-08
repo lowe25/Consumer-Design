@@ -11,12 +11,9 @@
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical;
-  
   }
   
   input[type=submit] {
-
     color: white;
     padding: 12px 20px;
     border: none;
@@ -50,16 +47,22 @@ input[type="button"]
   }
   .user-form {
     border-radius: 5px;
-    width: 800px;
+    max-width: 800px;
     background-color: #f4f4f4;
     padding: 20px;
   }
 
   /*RESPONSIVE*/
-@media(max-width: 768px)
+@media(max-width: 1222px)
 {
 .container{
-  text-align: center;
+  width: 100%;
+  padding-left: 200px;
+}
+
+.name,.email,.subject{
+  height: 30px;
+  width: 70%;
 }
 }
 

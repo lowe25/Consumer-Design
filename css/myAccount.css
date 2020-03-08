@@ -84,7 +84,7 @@ header{
  /*RESPONSIVE*/
  @media(max-width:1222px){
     *{
-      color: white;
+      color: black;
       width: 100%;
     }
 

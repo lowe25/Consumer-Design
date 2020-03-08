@@ -12,6 +12,11 @@ height: 10px;
 width: 30%;
 }
 
+.comp-name{
+    font-size: 29px;
+    color: white;
+}
+
 .logo
 {
     padding-left: 40px;
