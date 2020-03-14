@@ -10,12 +10,11 @@
     max-width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1em;
-    padding-left: 16rem;
+    padding-left: 230px;
+    padding-right: 30px;
     justify-content: center;
     align-items: center;
     align-self: center;
@@ -145,11 +144,11 @@ input[type="button"]:hover{
 }
 
 /*RESPONSIVE*/
-@media(max-width:768px){
-    .products{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-       padding-left: -10px;
+@media(max-width:1400px){
+    .product{
+        display: block;
+       /* grid-template-columns: repeat(1, 1fr);*/
+      
     }
 
     .prod-card{
