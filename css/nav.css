@@ -5,11 +5,16 @@
     list-style: none;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+      font-size: 23px;
+}
+
+.sup{
+    display: none;
 }
 
 
 .comp-name{
-    font-size: 29px;
+    font-size: 23px;
     color: white;
 }
 
@@ -32,8 +37,8 @@
 
 .wrapper .sidebar {
     position: fixed;
-    width: 200px;
-    height: 940px;
+    max-width: 200px;
+    height: 918px;
     background-color: #A9212A;
     color: white;
     font-size: 26px;
@@ -65,23 +70,11 @@ margin-bottom: 30px;
     color: yellow;
 
 }
-
-.wrapper .home{
-    width: 100%;
-    margin-left: 200px;
-}
-
-.wrapper .home .header{
-    padding: 20px;
-    background-color: #fff;
-    color:black;
-    border-bottom: 1px solid black;
-}
 /*FOR NAV HOVER LEFT*/
 /**/
 .wrapper ul li ul {
     display: none;
-    position: absolute;
+    position: static;
     top: 400px;
     left: 200px;
     width: 100%;
@@ -95,9 +88,17 @@ margin-bottom: 30px;
 
 }
 /**/
-@media(min-width: 768px){
+@media(max-width: 768px){
     .dadPic{
         height: 100px;
         width: 60%;
-    }
+    }   
+    /*
+    SAMPLE ONLY
+    .sup{
+        display: block;
+        background-color: black;
+        color: white;
+    }*/
+    
 }
