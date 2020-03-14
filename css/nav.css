@@ -75,7 +75,7 @@ margin-bottom: 30px;
 /**/
 .wrapper ul li ul {
     display: none;
-    position: static;
+    position: absolute;
     top: 400px;
     left: 200px;
     width: 100%;
@@ -85,7 +85,7 @@ margin-bottom: 30px;
 }
 
 .wrapper ul li:hover ul {
-    display: block;
+    display: inline;
 
 }
 /**/
