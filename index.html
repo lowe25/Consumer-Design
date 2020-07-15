@@ -1,113 +1,101 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Welcome To Waddy Daddy</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
-      <script src="Javascript/carousel.js"></script>
-      <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/sliders.css">
-        <link rel="stylesheet" href="css/nav.css">
-        <link rel="stylesheet" href="css/global.css">
-    </head>
-   <!--------------------------------------------->
-   <body>
-     <div class="content" id="#">
-       <div class="sup">
-         <p>TAE KA</p>
-       </div>
-        <div class="wrapper">
-            <div class="sidebar">
-              <div class="logo">
-                <img src="Images/DADDY.jpg" class="dadPic">
-              </div>
-                <ul>
-                  <li><p class="comp-name">Waddy Daddy</p></li>
-                  <li><a href="index.html">Home</a></li>
-             <!------------------HOVER LEFT------------------------->
-                    <li><a href="">Menu</a>
-                    <ul>
-                      <li><a href="burgerProduct.html">Burgers</a></li>
-                      <li><a href="#">Pizza</a></li>
-                      <li><a href="#">Appetizers</a></li>
-                      <li><a href="Dessert.html">Dessert</a></li>
-                      <li><a href="beverages.html">Beverages</a></li>
-                     </ul>
-                    </li>
-             <!--------------------------------------------->
-                    <li><a href="MyAccount.html">My Account</a></li>
-                   <li><a href="cart.html">Cart</a></li>
-                    <li><a href="Faq.html">FAQ</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
+<title>Waddy Daddy</title>
+<head>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <nav>
+        <p>WaddyDaddy</p>
+        <ul class="navbar">
+            <li><a href="">Menu</a>
+                <ul class="hover-menu">
+                <li><a href="">Burgers</a></li>
+                <li><a href="">Pizza</a></li>
+                <li><a href="">Appetizers</a></li>
+                <li><a href="">Desserts</a></li>
+                <li><a href="">Beverages</a></li>
                 </ul>
-            </div>
-        </div>
-    <!---------------HOME---------------->
-    <!--<div class="slideshow-container">
+            </li>
+            <li><a href="">Cart</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="">My Account</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+    <!---------------------------------->
+    <div class="container">
+    <div class="content">
 
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="Images/TLCburger.jpg" class="pic">
-    <div class="text">Caption Text</div>
-  </div>
-  
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="Images/food1.jpg" class="pic">
-    <div class="text">Caption Two</div>
-  </div>
-  
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="Images/food1.jpg" class="pic">
-    <div class="text">Caption Three</div>
-  </div>
-  
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  
-  </div>
-  <br>
-  
-  <div class="dots">
-    <span class="dot" onclick="currentSlide(1)"></span> 
-    <span class="dot" onclick="currentSlide(2)"></span> 
-    <span class="dot" onclick="currentSlide(3)"></span> 
-  </div>-->
-    <!-------------------------------------------->
-       <div class="product">
-
-       <div class="prod-card-burger">
+        <div class="burger">
          <p>Burgers</p>
-         <a href="burgerProduct.html"><input type="button" value="Order"></a>
-       </div>
+        <a href="wawa"><input type="button"  class="btn" value="View Menu"></a>
+        </div>
 
-       <div class="prod-card-pizza">
-        <p>Pizzas</p>       
-        <input type="button" value="Order">
-      </div>
+        <div class="pizza">
+            <p>Pizza</p>
+            <a href="wawa"><input type="button"  class="btn" value="View Menu"></a>
+        </div>
 
-      <div class="prod-card-appetizers">
-        <p>Appetizers</p>
-        <input type="button" value="Order">
-      </div>
+        <div class="appetizers">
+            <p>Appetizers</p>
+            <a href="wawa"><input type="button"  class="btn" value="View Menu"></a>
+        </div>
 
-      <div class="prod-card-dessert">
-        <p>Desserts</p>
-        <a href="Dessert.html"><input type="button" value="Order"></a>
-      </div>
+        <div class="desserts">
+            <p>Desserts</p>
+            <a href="wawa"><input type="button"  class="btn" value="View Menu"></a>
+        </div>
 
-      <div class="prod-card-drinks">
-          <p>Beverages</p>
-          <a href="beverages.html"><input type="button" value="Order"></a>
-      </div>
-       </div>
-    <!------------------------------------>
-    <footer>
-      <p>© 2020 Waddy Waddy Foods Corporation. All rights reserved.</p> 
-  </footer>
-<!--------------------------------->
+        <div class="beverages">
+            <p>Beverages</p>
+            <a href="wawa"><input type="button"  class="btn" value="View Menu"></a>
+        </div>
+
+    </div>
 </div>
-    </body>
+<!---------------------Footer-------------->
+<footer>
+<div class="footer-info">
+
+    <div class="menu">
+        <h3>Menu</h3>
+        <ul>
+            <li>Burger</li>
+            <li>Pizza</li>
+            <li>Appettizers</li>
+            <li>Beverages</li>
+        </ul>
+    </div>
+
+    <div class="contacts">
+        <h3>Contact Us</h3>
+        <p>Tel#</p>
+        <p>123-456-7890</p>
+
+        <p>Email</p>
+        <p>info@mysite.com</p>
+    </div>
+
+    <div class="about">
+        <h3>About Us</h3>
+        <p>Address
+            <p>500 Terry Francois St.</p>
+            <p>San Francisco, CA 94158</p>
+    </div>
+
+    <div class="socials">
+        <h3>Socials</h3>
+        <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+        </ul>
+    </div>
+
+</div>
+</footer>
+
+</body>
 </html>

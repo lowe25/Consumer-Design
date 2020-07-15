@@ -1,70 +1,42 @@
-  * {
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif; 
-  }
-
-  input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-  }
-  
-  input[type=submit] {
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-
-.btn
-{
-    text-align: right;
+*{
+    margin: 0px;
+    padding: 0px;
 }
-input[type="button"]
-{
-    border: none;
-    height: 40px;
-    width: 35%;
-    color:black;
+body{
+    overflow: hidden;
 }
-  
-  /*input[type=submit]:hover {
-    background-color: #ff6e7f;
-  }*/
-  .container 
-  {
-    height: 889px;
-    margin: auto;
-    max-width: 50%;
-    padding: 10px;
-    padding-top: 100px;
-    padding-left: 150px;
-  }
-  .user-form {
-    border-radius: 5px;
-    max-width: 800px;
-    background-color: #f4f4f4;
-    padding: 20px;
-  }
-
-  /*RESPONSIVE*/
-@media(max-width: 1222px)
-{
 .container{
-  max-width: 100%;
-  padding-left: 200px;
+    display: flex;
+    width: 90%;
+   justify-content: center;
+    padding-top: 40px;
+}
+.content{
+height: 42rem;
+padding-bottom: -19px;
+
+}
+label {
+    display: block;
+    padding-top: 14px;
+    padding-bottom: 10px;
 }
 
-.name,.email,.subject{
-  height: 30px;
-  width: 70%;
+.content input[type="text"]{
+    height: 30px;
+    width: 230%;
+    border: 1px solid #000;
 }
+
+.content textarea{
+    height: 100px;
+    width: 230%;
+    border: 1px solid #000;
 }
 
-
-
+.content input[type="button"]{
+    position: relative;
+    height: 30px;
+    width: 50%;
+    left: 377px;
+}
