@@ -1,0 +1,78 @@
+@import "navbar";
+@import "login";
+@import 'contact';
+@import 'myAccount';
+@import 'cart';
+@import "footer";
+
+$btn-color: #d42e2e;
+$btn-hover: #b63a3a;
+$text-colors: #ffff;
+
+.tae {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  height: 43rem;
+}
+.container {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  justify-content: center;
+  grid-gap: 10px;
+}
+
+/*FOOD MENU*/
+.burger,
+.pizza,
+.appetizers,
+.desserts,
+.beverages {
+  height: 170px;
+  width: 500px;
+  border: 2px solid black;
+  color: $text-color;
+  padding: 1em;
+  font-size: 20px;
+}
+
+.pizza {
+  background-image: url(/images/pizza.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.burger {
+  background-image: url(/images/burger.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.appetizers {
+  background-image: url(/images/appetizers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.desserts {
+  background-image: url(/images/desserts.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.beverages {
+  background-image: url(/images/beverages.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*UTILITIES*/
+.btn {
+  height: 30px;
+  width: 30%;
+  border: none;
+  color: $text-color;
+  background-color: $btn-color;
+}
+.btn:hover {
+  color: $text-color;
+  background-color: $btn-hover;
+  transition: 2ms;
+}

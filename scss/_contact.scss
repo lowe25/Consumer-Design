@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  overflow: hidden;
+}
+.contact-container {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+/*Fields*/
+.contact-content {
+  height: 42rem;
+  padding-bottom: -19px;
+
+  label {
+    display: block;
+    padding-top: 14px;
+    padding-bottom: 10px;
+  }
+
+  input[type="text"] {
+    height: 30px;
+    width: 230%;
+    border: 1px solid #000;
+  }
+  textarea {
+    height: 100px;
+    width: 230%;
+    border: 1px solid #000;
+  }
+  input[type="button"] {
+    position: relative;
+    height: 30px;
+    width: 50%;
+    left: 377px;
+  }
+}

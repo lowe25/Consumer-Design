@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<title>Waddy Daddy</title>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/contact.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/style.css">   
+    <script src="https://use.fontawesome.com/1d05123b50.js"></script>
+    <title>Document</title>
 </head>
 <body>
     <nav>
@@ -18,15 +20,15 @@
                 <li><a href="">Beverages</a></li>
                 </ul>
             </li>
-            <li><a href="">Cart</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">My Account</a></li>
-            <li><a href="">Login</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="myaccount.html">My Account</a></li>
+            <li><a href="login.html">Login</a></li>
         </ul>
     </nav>
     <!------------------------------------->
-    <div class="container">
-    <div class="content">
+    <div class="contact-container">
+    <div class="contact-content">
         <h1>Contact Us</h1>
      <label>Enter Fullname</label>
      <input type="text" class="txt" placeholder="Fullname">
@@ -38,7 +40,7 @@
      <input type="text" class="txt" placeholder="Subject">
 
      <label>Enter Message</label>
-     <textarea></textarea>
+     <textarea style="resize: none;"></textarea>
 
      <input type="button" value="Submit">    
     </div>
@@ -68,7 +70,7 @@
         
             <div class="about">
                 <h3>About Us</h3>
-                <p>Address
+                <p>Address</p>
                     <p>500 Terry Francois St.</p>
                     <p>San Francisco, CA 94158</p>
             </div>
@@ -76,14 +78,16 @@
             <div class="socials">
                 <h3>Socials</h3>
                 <ul>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>Instagram</li>
+                    <li><i class="fa fa-facebook-square" aria-hidden="true" padding-left="10px;">    
+                    </i>Facebook</li>
+                    <li><i class="fa fa-twitter-square" aria-hidden="true">
+                    </i>Twitter</li>
+                    <li><i class="fa fa-instagram" aria-hidden="true">
+                    </i>Instagram</li>
                 </ul>
             </div>
         
         </div>
         </footer>
-        
     </body>
    </html>
